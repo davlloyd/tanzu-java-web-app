@@ -4,7 +4,7 @@
 ```json
 {
   "projectName" : "tanzu-java-web-app",
-  "repositoryPrefix" : "lloyd-266015/supply-chain"
+  "repositoryPrefix" : "us.gcr.io/lloyd-266015/supply-chain"
 }
 ```
 ## Log
@@ -84,7 +84,7 @@
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[1].<combo>.transformations[1].transformations[0] (ReplaceText)
 ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [tanzu-java-web-app->tanzu-java-web-app]
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[1].<combo>.transformations[1].transformations[1] (ReplaceText)
-┃ ┃ ┃ ┗ ┗ ┗  Info Will replace [your-registry.io/project->lloyd-266015/supply-...(truncated)]
+┃ ┃ ┃ ┗ ┗ ┗  Info Will replace [your-registry.io/project->us.gcr.io/lloyd-2660...(truncated)]
 ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[2] (Combo)
 ┃ ┃ ┃ ┃  Info Combo running as Chain(Include, Chain(chain))
 ┃ ┃ ┃ ┃ engine.transformations[0].merge.transformations[0].sources[2].<combo> (Chain)
