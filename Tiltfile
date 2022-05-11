@@ -1,5 +1,5 @@
 SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='us.gcr.io/lloyd-266015/supply-chain/tanzu-java-web-app-source')
-LOCAL_PATH = os.getenv("LOCAL_PATH", default='/Users/lloydd/Documents/playpen/tap/tanzu-java-web-app')
+LOCAL_PATH = os.getenv("LOCAL_PATH", default='/Users/lloydd/Documents/git/apps/tanzu-java-web-app')
 NAMESPACE = os.getenv("NAMESPACE", default='alpha')
 
 k8s_custom_deploy(
